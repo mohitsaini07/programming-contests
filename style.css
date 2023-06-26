@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url();
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(to right, #222, #444, #222);
+  height: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+.nav_left {
+  font-size: 2rem;
+  margin-right: 2rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+}
+ul {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+nav ul a {
+  text-decoration: none;
+}
+nav ul li {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  list-style: none;
+  color: white;
+  margin-right: 3rem;
+  transition: all 0.2s;
+}
+nav ul li:hover {
+  color: rgb(190, 190, 190);
+}
+.hero {
+  height: 100vh;
+  width: auto;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to bottom, #000000, #fffffffa, #000000);
+}
+.hero h1 {
+  font-family: "Josefin Sans", sans-serif;
+  color: aliceblue;
+  text-shadow: 3px 5px 7px #000;
+  font-size: 5rem;
+}
+.contests {
+  max-width: 1159px;
+  margin: 0 auto;
+}
+.contests .heading {
+  text-align: center;
+  margin-top: 4rem;
+}
+.contests h1 {
+  text-transform: uppercase;
+  color: rgb(71, 69, 69);
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.heading span {
+  color: #4a9ca2;
+}
+
+.card_container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.card a {
+  background-color: #4a9ca2;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.card a:hover {
+  background-color: #367a7e;
+  cursor: pointer;
+}
